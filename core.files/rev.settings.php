@@ -23,6 +23,7 @@ $Rev['site']['email'] = 'habbo@sulake.com';
 $Rev['site']['fb'] = 'HabboCOM';
 $Rev['site']['twtr'] = 'twitter';
 $Rev['site']['maint'] = true; //True = This is on Maintenance ; False = This will run as normal.
+$Rev['site']['style'] = 'Default';
 
 //User Settings
 $Rev['user']['motto'] = '';
