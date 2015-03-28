@@ -24,11 +24,11 @@ use Habbo as Hab;
      require_once F .  'rev.settings.php';
 
   $core = new Hab\core();
-	$engine = new Hab\engine();
-	$users = new Hab\users();
-	$template = new Hab\template();
-	$template->form = new Hab\forms();
-	$template->html = new Hab\html();
+  $engine = new Hab\engine();
+  $users = new Hab\users();
+  $template = new Hab\template();
+  $template->form = new Hab\forms();
+  $template->html = new Hab\html();
 
 //Start Session
 session_start();
