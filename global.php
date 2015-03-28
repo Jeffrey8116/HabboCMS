@@ -1,4 +1,4 @@
-<?php 
+<?php
 if(!defined('IN_INDEX')) { die('<center><img src="http://i.imgur.com/Acxi9pG.png"></img></center>'); }
 //This will check if the domain is hosted on Cloudflare. If you do not have it, I suggest you do or get a proxy!
 if(isset($_SERVER['HTTP_CF_CONNECTING_IP'])) { $_SERVER['REMOTE_ADDR'] = $_SERVER['HTTP_CF_CONNECTING_IP']; }
@@ -23,11 +23,11 @@ use Habbo as Hab;
      require_once F . C . 'int.forms.php';
      require_once F .  'rev.settings.php';
 
-     $core = new Hab\core();	
-	$engine = new Hab\engine();		
+  $core = new Hab\core();
+	$engine = new Hab\engine();
 	$users = new Hab\users();
-	$template = new Hab\template();	
-	$template->form = new Hab\forms();	
+	$template = new Hab\template();
+	$template->form = new Hab\forms();
 	$template->html = new Hab\html();
 
 //Start Session
