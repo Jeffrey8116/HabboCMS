@@ -23,9 +23,9 @@ use Habbo as Hab;
      require_once F . C . 'int.forms.php';
      require_once F .  'rev.settings.php';
 
-    $core = new Hab\core();	
+     $core = new Hab\core();	
 	$engine = new Hab\engine();		
-	$users = new Hab\users()	
+	$users = new Hab\users();
 	$template = new Hab\template();	
 	$template->form = new Hab\forms();	
 	$template->html = new Hab\html();
